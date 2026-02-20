@@ -4,26 +4,26 @@ import Image from "next/image";
 
 const items = [
     {
-        image: "/product/1.jpg",
-        title: "Premium Cut",
-        description: "Precision haircut crafted for a sharp, modern look."
+        image: "/new/c.jpeg",
+        title: "Clothing",
+        description: "Stylish and comfortable apparel designed to elevate your everyday look."
     },
     {
-        image: "/product/6.jpg",
-        title: "Beard Styling",
-        description: "Clean lines and expert shaping for a bold finish."
+        image: "/new/w.jpeg",
+        title: "Wind Breaker",
+        description: "Lightweight and durable outerwear built to protect you from wind and weather."
     },
     {
-        image: "/product/3.jpg",
-        title: "Hair Treatment",
-        description: "Revitalize your hair with premium care products."
+        image: "/new/r.jpeg",
+        title: "Accessories",
+        description: "Trendy and functional accessories to complete and enhance your outfit."
     },
 ];
 
 export default function Service() {
     return (
         <section className="py-28 bg-black" id="about">
-           <div className="w-full px-6 text-center">
+            <div className="w-full px-6 text-center">
                 {/* Reduced gap */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                     {items.map((item, index) => (
@@ -40,7 +40,7 @@ export default function Service() {
                                         src={item.image}
                                         alt={item.title}
                                         fill
-                                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                        className="transition-transform duration-700 group-hover:scale-105"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80" />
                                 </div>
