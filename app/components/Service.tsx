@@ -35,17 +35,16 @@ export default function Service() {
                         >
                             {/* Image with padding */}
                             <div className="p-8">
-                                <div className="relative aspect-square w-full overflow-hidden">
+                                <div className="relative aspect-square w-full overflow-hidden bg-black">
                                     <Image
                                         src={item.image}
                                         alt={item.title}
                                         fill
-                                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                        className="object-contain transition-transform duration-700 group-hover:scale-105"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80" />
                                 </div>
                             </div>
-
                             {/* Content */}
                             <div className="p-8 pt-4 text-center">
                                 <h4 className="text-xl font-light tracking-wide text-white mb-3">
