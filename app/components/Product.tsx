@@ -7,13 +7,13 @@ import { motion } from "framer-motion";
 
 const images = [
     "/product/8.jpg",
-    "/product/2.jpg",
+    "/product/12.jpg",
     "/product/3.jpg",
     "/product/4.jpg",
     "/product/5.jpg",
-    "/product/6.jpg",
+    "/product/13.jpg",
     "/product/7.jpg",
-    "/product/1.jpg",
+    "/product/11.jpg",
 ];
 
 
