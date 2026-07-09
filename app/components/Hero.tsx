@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section className="relative pt-24 h-[60vh] w-full overflow-hidden" id="home">
+        <section className="relative pt-24 min-h-[60vh] w-full overflow-hidden" id="home">
 
             {/* Background Video */}
             <video
@@ -16,7 +16,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80" />
 
             {/* Content */}
-            <div className="relative z-10 h-full flex items-center justify-center px-6">
+            <div className="relative z-10 min-h-[60vh] flex items-center justify-center px-6 py-16">
                 <div className="max-w-3xl text-center">
                     <h1 className="text-3xl md:text-6xl text-white mb-4 tracking-tight opacity-0 animate-fadeIn">
                         Clip Crew Hair Studio.

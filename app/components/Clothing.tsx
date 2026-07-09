@@ -32,7 +32,7 @@ export default function Clothing() {
 
     return (
         <section
-            className="relative isolate py-28 bg-black overflow-hidden"
+            className="relative isolate py-28 bg-black overflow-hidden scroll-mt-28"
             id="clothing"
         >
 
@@ -82,8 +82,9 @@ export default function Clothing() {
                         >
                             <Image
                                 src={src}
-                                alt="Product image"
+                                alt="Hair highlight styling"
                                 fill
+                                sizes="(max-width: 768px) 260px, 320px"
                                 className="object-cover"
                                 priority={i < 4}
                             />

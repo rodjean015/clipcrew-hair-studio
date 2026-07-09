@@ -17,6 +17,20 @@ export const metadata: Metadata = {
   title: "CLIPCREW",
   description:
     "CLIP CREW HAIR STUDIO - Fresh cuts, bold colors, cool style. Walk in and stand out!",
+  openGraph: {
+    title: "CLIPCREW",
+    description:
+      "CLIP CREW HAIR STUDIO - Fresh cuts, bold colors, cool style. Walk in and stand out!",
+    images: ["/CLIPCREW.jpg"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CLIPCREW",
+    description:
+      "CLIP CREW HAIR STUDIO - Fresh cuts, bold colors, cool style. Walk in and stand out!",
+    images: ["/CLIPCREW.jpg"],
+  },
 };
 
 export default function RootLayout({

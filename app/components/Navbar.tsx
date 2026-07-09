@@ -6,7 +6,8 @@ import { Menu, X } from "lucide-react";
 
 const navItems = [
     { label: "Our Product", id: "product" },
-    { label: "About Us", id: "clothing" },
+    { label: "Shop", id: "shop" },
+    { label: "About Us", id: "feature" },
     { label: "Contact Us", id: "contact" },
 ];
 

@@ -37,7 +37,7 @@ const items = [
 
 export default function Features() {
     return (
-        <section className="py-28 bg-black" id="feature">
+        <section className="py-28 bg-black scroll-mt-28" id="feature">
             <div className="w-full max-w-7xl mx-auto text-center">
                 <motion.h3
                     initial={{ opacity: 0, y: 10 }}
@@ -66,6 +66,7 @@ export default function Features() {
                                         src={item.image}
                                         alt={item.title}
                                         fill
+                                        sizes="(max-width: 768px) 100vw, 33vw"
                                         className="object-cover transition-transform duration-700 group-hover:scale-105"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80" />

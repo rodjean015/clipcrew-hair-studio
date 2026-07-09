@@ -22,8 +22,9 @@ const items = [
 
 export default function Service() {
     return (
-        <section className="py-28 bg-black" id="about">
+        <section className="py-28 bg-black scroll-mt-28" id="shop">
             <div className="w-full px-6 text-center">
+               
                 {/* Reduced gap */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                     {items.map((item, index) => (
@@ -40,7 +41,8 @@ export default function Service() {
                                         src={item.image}
                                         alt={item.title}
                                         fill
-                                        className="transition-transform duration-700 group-hover:scale-105"
+                                        sizes="(max-width: 768px) 100vw, 33vw"
+                                        className="object-cover transition-transform duration-700 group-hover:scale-105"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-80" />
                                 </div>
@@ -63,6 +65,17 @@ export default function Service() {
                         </div>
                     ))}
                 </div>
+
+                <a
+                    href="https://www.clipcrew.shop/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-14 px-10 py-3 border border-yellow-500/70 text-yellow-500
+                               text-sm tracking-widest uppercase transition-all duration-300
+                               hover:bg-yellow-500 hover:text-black"
+                >
+                    Shop Now
+                </a>
             </div>
         </section>
     );

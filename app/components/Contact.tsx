@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
     return (
-        <section className="py-32 bg-gradient-to-b from-black via-zinc-950 to-black" id="contact">
+        <section className="py-32 bg-gradient-to-b from-black via-zinc-950 to-black scroll-mt-28" id="contact">
             <div className="max-w-6xl mx-auto px-6 text-center">
                 {/* Title */}
                 <motion.h3
@@ -32,7 +32,7 @@ export default function Contact() {
                 </motion.p>
 
                 {/* Info Grid */}
-                <div className="grid gap-16 md:grid-cols-4">
+                <div className="grid gap-10 md:gap-16 md:grid-cols-4">
                     {[
                         {
                             label: "Location",

@@ -32,7 +32,7 @@ export default function Product() {
 
     return (
         <section
-            className="relative isolate py-28 bg-black overflow-hidden"
+            className="relative isolate py-28 bg-black overflow-hidden scroll-mt-28"
             id="product"
         >
 
@@ -86,6 +86,7 @@ export default function Product() {
                                 src={src}
                                 alt="Product image"
                                 fill
+                                sizes="(max-width: 768px) 260px, 320px"
                                 className="object-cover"
                                 priority={i < 4}
                             />
