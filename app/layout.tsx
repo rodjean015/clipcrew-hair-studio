@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.clipcrew.shop"),
   title: "CLIPCREW",
   description:
     "CLIP CREW HAIR STUDIO - Fresh cuts, bold colors, cool style. Walk in and stand out!",
