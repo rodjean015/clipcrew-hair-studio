@@ -6,14 +6,20 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const images = [
-    "/product/8.jpg",
-    "/product/12.jpg",
-    "/product/3.jpg",
-    "/product/4.jpg",
-    "/product/5.jpg",
-    "/product/13.jpg",
-    "/product/7.jpg",
-    "/product/11.jpg",
+    "/product/1.jpeg",
+    "/product/2.jpeg",
+    "/product/3.jpeg",
+    "/product/4.jpeg",
+    "/product/5.jpeg",
+    "/product/6.jpeg",
+    "/product/7.jpeg",
+    "/product/8.jpeg",
+    "/product/9.jpeg",
+    "/product/10.jpeg",
+    "/product/11.jpeg",
+    "/product/12.jpeg",
+    "/product/13.jpeg",
+    "/product/14.jpeg",
 ];
 
 
@@ -23,7 +29,7 @@ export default function Product() {
     const scroll = (direction: "left" | "right") => {
         if (!sliderRef.current) return;
 
-        const cardWidth = 320 + 24; // width + gap
+        const cardWidth = 420 + 24; // width + gap
         sliderRef.current.scrollBy({
             left: direction === "left" ? -cardWidth : cardWidth,
             behavior: "smooth",
@@ -80,13 +86,13 @@ export default function Product() {
                     {[...images, ...images].map((src, i) => (
                         <div
                             key={i}
-                            className="min-w-[260px] md:min-w-[320px] h-130 relative overflow-hidden bg-zinc-800 flex-shrink-0"
+                            className="min-w-[320px] md:min-w-[420px] h-130 relative overflow-hidden bg-zinc-800 flex-shrink-0"
                         >
                             <Image
                                 src={src}
                                 alt="Product image"
                                 fill
-                                sizes="(max-width: 768px) 260px, 320px"
+                                sizes="(max-width: 768px) 320px, 420px"
                                 className="object-cover"
                                 priority={i < 4}
                             />

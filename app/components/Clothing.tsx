@@ -6,14 +6,16 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const images = [
-    "/product/8.jpg",
-    "/product/12.jpg",
-    "/product/3.jpg",
-    "/product/4.jpg",
-    "/product/5.jpg",
-    "/product/13.jpg",
-    "/product/7.jpg",
-    "/product/11.jpg",
+    "/highlight/1.jpeg",
+    "/highlight/2.jpeg",
+    "/highlight/3.jpeg",
+    "/highlight/4.jpeg",
+    "/highlight/5.jpeg",
+    "/highlight/6.jpeg",
+    "/highlight/7.jpeg",
+    "/highlight/8.jpg",
+    "/highlight/9.jpg",
+    "/highlight/10.jpg",
 ];
 
 
