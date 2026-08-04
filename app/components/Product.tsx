@@ -17,6 +17,7 @@ const images = [
     "/product/11.jpeg",
     "/product/13.jpeg",
     "/product/14.jpeg",
+    "/product/15.jpeg",
 ];
 
 
