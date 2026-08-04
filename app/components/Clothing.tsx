@@ -7,7 +7,6 @@ import Image from "next/image";
 
 const images = [
     "/highlight/1.jpeg",
-    "/highlight/2.jpeg",
     "/highlight/3.jpeg",
     "/highlight/4.jpeg",
     "/highlight/5.jpeg",
